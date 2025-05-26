@@ -1,0 +1,9 @@
+#Task 6
+1- Static vizualization refer a type of information that does not change or update in real time.
+   Interactive vizualization  allows user to change with data through actions like clicking, filtering, zooming or dragging
+2- It can post trends, anomalies, or issues as they happen
+   Users can filter, zoom or drill down into specific data with out deeding to createa new charts o report
+   Desisicion-makers can interact with mosr current data, reducing guess work and enabling faster, data driven responses
+3. Potly it is easer for the user make eayly the reading charts 
+   Dash same thelps to build web applicatins in proegraming as python, it more  easy to get what we use for
+

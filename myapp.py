@@ -30,3 +30,8 @@ def update_graph(symbol):
 # Run the app
 if __name__ == "__main__": 
     app.run(debug=True) 
+
+    
+    
+app = Dash(__name__)
+server = app.server # <-- This is the line you need to add

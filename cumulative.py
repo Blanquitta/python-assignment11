@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import sqlite3
 
 # Connect to the database
-conn = sqlite3.connect("../db/lesson.db")
+conn = sqlite3.connect("./db/lesson.db")
 
 # SQL query to get total revenue per order
 query = """
