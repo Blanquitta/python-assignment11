@@ -2,6 +2,9 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import plotly.data as pldata
 
+app = Dash(__name__)
+server = app.server # <-- This is the line you need to add
+
 df = pldata.stocks(return_type='pandas', indexed=False, datetimes=True)
 
 

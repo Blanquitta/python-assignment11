@@ -1,10 +1,21 @@
 # 2
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
+
+
+# import sqlite3
+
+# Connect to the database
+# conn = sqlite3.connect("./db/lesson.db")
 import sqlite3
 
 # Connect to the database
 conn = sqlite3.connect("./db/lesson.db")
+
+# Load a dataset
+
 
 # SQL query to get total revenue per order
 query = """
