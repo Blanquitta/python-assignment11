@@ -1,6 +1,10 @@
+#4 and #5
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import plotly.data as pldata
+
+df = pd.read_csv("some csv file")
+# source .venv/Scripts/activate
 
 app = Dash(__name__)
 server = app.server # <-- This is the line you need to add
